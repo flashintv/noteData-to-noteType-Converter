@@ -18,7 +18,7 @@ def greenConsole():
 
 clearConsole()
 greenConsole()
-print('Welcome to \'noteData > 6 to noteType\' chart converter!')
+print('Welcome to \'noteData > 7 to noteType\' chart converter!')
 input('Press ENTER to begin!')
 clearConsole()
     
