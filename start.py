@@ -6,19 +6,19 @@ import os
 
 def clearConsole():
     command = 'clear'
-    if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
+    if os.name in ('nt', 'dos'):
         command = 'cls'
     os.system(command)
 
 def greenConsole():
     command = 'clear'
-    if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
+    if os.name in ('nt', 'dos'):
         command = 'color 2'
     os.system(command)
 
 clearConsole()
 greenConsole()
-print('Welcome to \'vs. Tricky\' chart converter!')
+print('Welcome to \'noteData > 6 to noteType\' chart converter!')
 input('Press ENTER to begin!')
 clearConsole()
     
